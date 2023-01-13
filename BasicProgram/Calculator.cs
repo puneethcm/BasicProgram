@@ -26,5 +26,10 @@ namespace BasicProgram
             result = first + second;
             Console.WriteLine("Sum:" + result);
         }
+        public void Substraction()
+        {
+            result = Math.Abs(first + second);
+            Console.WriteLine("diff:" + result);
+        }
     }
 }
